@@ -1,0 +1,196 @@
+body{
+    font: Arial, Helvetica ;
+}
+#container
+{
+    width:1050px;
+   /* border: 1px solid grey;*/
+    height: 100px;
+    margin: 0 auto;
+}
+#header
+{
+    height: 100px;
+    padding: 10px 10px 10px 0;
+}
+#brand
+{
+    float: left;
+}
+h1 a
+{
+  font-size: 50px;
+  font-weight: 100;
+  color: blueviolet;
+  text-decoration: none;
+}
+#searchbox
+{
+    float: right;
+    background: -webkit-linear-gradient(#E4F2B9 , #87E953);
+    background:-moz-linear-gradient(#E4F2B9 , #87E953);
+    background:-o-linear-gradient(#E4F2B9 , #87E953);
+    background:linear-gradient(#9ac1ee , #589dd6);
+    width: 400px;
+    height: 50px;
+    padding: 20px 10px 0 10px;
+    margin-top: 6px;
+
+}
+.text
+{
+    float: left;
+    width: 200px;
+    padding: 5px;
+    font-size: 15px;
+    color: tomato;
+    background: white url(LogoMakr-6FYS5i.png) right center no-repeat;
+    border: 1px solid #cbd03e;
+}
+.submit
+{
+    float: right;
+    padding: 5px;
+    font-weight: bold;
+    color: wight;
+    background: blueviolet;
+    font-size: 15px;
+}
+.clear
+{
+    clear: both;
+}
+#menu
+{
+    height: 70px;
+    background :linear-gradient(#b9ddf1, #b9dceb);
+    padding: 7px 0 ;
+}
+ul
+{
+  list-style: none;  
+}
+#menu ul li
+{
+  float: left;
+  padding: 0 30px;
+  height: 30px;
+  border-right: 1px solid #5d12e7;
+}
+  #menu ul li:last-child
+  {
+     border-right: none;
+  }
+
+#menu ul li a 
+{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #5d12e7;
+    line-height: 30px;
+    -webkit-transition: font-size 0.5s ease;
+    -moz-transition: font-size 0.5s ease;
+    -o-transition: font-size 0.5s ease;
+    -ms-transition: font-size 0.5s ease;
+    transition: font-size 0.5s ease;
+}
+
+
+#menu ul li a:hover, #menu ul li a:active{
+     font-size: 20px;
+     font-weight: bold;
+     color: #B314DB;
+}
+
+#introduction
+{
+    background: linear-gradient(#7ab1be, #fff);
+    padding: 30px;
+    margin: 16px 0;
+}
+#introduction h3
+{
+    font-size:45px;
+    color: #316901;
+    font-weight: normal;
+}
+#introduction p
+{
+    font-size: 25px;
+    color: #eb6f27;
+    text-align: justify;
+}
+
+.sidebar 
+{
+    height: 500px;
+    width: 450px; 
+    border:2px solid #049dcc;
+    border-radius: 20px;
+    padding: 10px 20px;
+
+}
+.sidebar h3{
+    color: #B314DB;
+    font-size: 25px;
+}
+.sidebar ul{
+    padding-top: 8px;
+}
+#leftsidebar ul li 
+{
+    padding:0px 0 1px 6px;
+    padding-bottom: 6px;
+    padding-left: 10px;
+    list-style-image:url(LogoMakr-2M3AJh.png) ;
+}
+#rightsidebar ul{
+    padding-top: 8px;
+}
+#rightsidebar ul li 
+{
+    padding-bottom: 6px;
+    padding-left: 10px;
+    list-style-image:url(LogoMakr-5JouBI.png) ;
+    padding:20px 0 15px 50px;
+}
+
+.sidebar ul li a{
+   text-decoration: none;
+   font-size: 20px;
+   color: #5d12e7;
+   -webkit-transition: font-size 0.5s ease;
+    -moz-transition: font-size 0.5s ease;
+    -o-transition: font-size 0.5s ease;
+    -ms-transition: font-size 0.5s ease;
+    transition: font-size 0.5s ease;
+}
+.sidebar ul li a:hover, .sidebar ul li a:active{
+    text-decoration: none;
+    color:#B314DB;
+    font-size: 23px;
+    font-weight: bold;
+}
+#leftsidebar
+{
+    float: left;
+    
+}
+
+#rightsidebar
+{
+    float:right;
+}
+
+.footer
+{
+    float:inherit;
+    height: 60px;
+    background:linear-gradient(blueviolet,blueviolet );
+    padding:10px 30px;
+    margin-top: 15px;
+}
+.clear p{
+    color: #fff;
+}
